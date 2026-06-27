@@ -1,4 +1,5 @@
 import React from 'react'
+import proimg from "../assets/proimg.png";
 import {
   SiHtml5,
   SiNodedotjs,
@@ -43,11 +44,7 @@ export default function About() {
               <span className="text-gray-600 text-xs text-center px-4">
             
                 <br />
-          <img
-  src="/src/assets/proimg.png"
-  alt="Project"
-  className="w-full h-56 object-cover rounded-lg"
-/>
+     <img src={proimg} alt="Project" />
               </span>
             </div>
 

@@ -1,7 +1,10 @@
 import React from 'react'
 import Footer from './Footer'
 import { projects } from '../data/projects'
-
+import reactIcon from "../assets/react.png";
+import jsIcon from "../assets/js.png";
+import cssIcon from "../assets/css.png";
+import figmaIcon from "../assets/figma.png";
 export default function Projects() {
   return (
     <>
@@ -27,13 +30,12 @@ export default function Projects() {
                     {p.title}
                   </span>
                 </div>
-                <div className="flex gap-4">
-          <img src="/src/assets/react.png" className="w-12 h-12" alt="React" />
-          <img src="/src/assets/js.png" className="w-12 h-12" alt="JavaScript" />
-          <img src="/src/assets/css.png" className="w-12 h-12" alt="CSS" />
-          <img src="/src/assets/figma.png" className="w-12 h-12" alt="Figma" />
-        </div>
-           
+              <div className="flex gap-4">
+  <img src={reactIcon} className="w-12 h-12" alt="React" />
+  <img src={jsIcon} className="w-12 h-12" alt="JavaScript" />
+  <img src={cssIcon} className="w-12 h-12" alt="CSS" />
+  <img src={figmaIcon} className="w-12 h-12" alt="Figma" />
+</div>
               </article>
             ))}
           </div>
