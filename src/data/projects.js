@@ -1,5 +1,5 @@
 import portfolio from "../assets/portfolio.png";
-import Weather from "../assets/Weather.png";
+import weather from "../assets/weather.png";
 import credit from "../assets/credit.png";
 import re from "../assets/re.png";
 import tool from "../assets/tool.png";
@@ -24,7 +24,7 @@ export const projects = [
     tags: ['React', 'JS', 'CSS', 'Figma'],
     accent: 'from-sky-500/30 to-transparent',
     border: 'border-sky-400/30',
-    image:Weather,
+    image:weather,
   },
   {
     title: 'Cred Clone',
